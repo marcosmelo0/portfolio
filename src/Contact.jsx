@@ -65,7 +65,7 @@ export function Contact() {
             </label>
             <textarea
               className="textarea textarea-bordered w-full py-5 rounded-none"
-              placeholder="Somos da Google e adorariamos te ter no nosso time..."
+              placeholder="Sou recrutador(a) e adorariamos te ter no nosso time..."
               required
               id="message"
             ></textarea>
@@ -78,7 +78,7 @@ export function Contact() {
           <div className="grid grid-flow-col gap-4">
             <a
               className="btn btn-outline btn-primary rounded-full border-none"
-              href="https://www.linkedin.com/in/guchierrez/"
+              href="https://www.linkedin.com/in/marcoos-melloo/"
               target="_blank"
             >
               <svg
@@ -93,7 +93,7 @@ export function Contact() {
             </a>
             <a
               className="btn btn-outline btn-primary rounded-full border-none"
-              href="https://github.com/guchierrez/"
+              href="https://github.com/marcosmelo0"
               target="_blank"
             >
               <svg

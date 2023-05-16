@@ -52,8 +52,7 @@ export function Hero() {
               </button>
               <a
                 className="btn btn-outline rounded-none"
-                href="https://guchierrez-resumee-ptbr.tiiny.site/"
-                target="_blank"
+                onClick={handleProjectsClick}
               >
                 Mostrar Projetos
               </a>

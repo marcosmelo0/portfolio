@@ -65,7 +65,7 @@ export function NavbarElement() {
         <div className="flex items-center justify-between">
           <a
             className="flex-none text-xl font-marlinge dark:text-white"
-            href="https://mellifluous-youtiao-f61196.netlify.app/"
+            href="#"
           >
             <img
               src="https://i.postimg.cc/Kvp5ZvKV/logo.png"
@@ -133,15 +133,6 @@ export function NavbarElement() {
               onClick={handleContactClick}
             >
               Contato
-            </a>
-            <a
-              className="font-extralight hover:text-primary transition-all duration-300 cursor-pointer"
-              href="https://warm-tarsier-c6a42e.netlify.app/"
-            >
-              <img
-                src="https://i.postimg.cc/xd2NQWPh/us.png"
-                style={{ width: "30px" }}
-              />
             </a>
           </div>
         </div>

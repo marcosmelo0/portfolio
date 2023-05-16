@@ -9,7 +9,7 @@ export function Footer() {
             alt=""
           />
           <p>
-            Guchierrez ©<br />
+            Marcos Melo ©<br />
             Providing reliable tech since 2023
           </p>
         </div>
@@ -17,7 +17,7 @@ export function Footer() {
           <div className="grid grid-flow-col gap-4">
             <a
               className="btn btn-outline rounded-full border-none"
-              href="https://www.linkedin.com/in/guchierrez/"
+              href="https://www.linkedin.com/in/marcoos-melloo/"
               target="_blank"
             >
               <svg
@@ -32,7 +32,7 @@ export function Footer() {
             </a>
             <a
               className="btn btn-outline rounded-full border-none"
-              href="https://github.com/guchierrez/"
+              href="https://github.com/marcosmelo0"
               target="_blank"
             >
               <svg
