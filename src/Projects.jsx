@@ -9,26 +9,34 @@ export function Projects() {
         </h2>
         <div className="flex flex-col gap-60 md:gap-20 md:my-20 mb-40">
           <ProjectElement
-            name="E-COMMERCE APP"
-            description="Esta é uma aplicação de comércio eletrônico construída no React.js que renderiza produtos através de dados recebidos de um arquivo JSON, usado como banco de dados. Também é usado o armazenamento local para salvar itens adicionados ao carrinho. Também se utiliza o useState para filtrar os produtos exibidos por meio de um filtro de categoria e barra de pesquisa."
-            live="https://guchierrez.github.io/ecommerce-app/"
-            code="https://github.com/guchierrez/ecommerce-app"
-            imgSrc="https://i.postimg.cc/LXVzGHKx/project1.jpg"
+            name="Hambúrgueria Kenzie"
+            description="Aplicação com sistema de cadastro e login, mapeamento de rotas. O usuário pode fazer pedido online de hambúrgueres, o usuário pode colocar mais de um hambúrguer no carrinho, mas não pode colocar dois repetidos. Tecnologia: React"
+            live="https://react-entrega-template-hamburgueria-da-kenzie-marcosmelo0.vercel.app/"
+            code="https://github.com/marcosmelo0/hamburgueria-da-kenzie-marcosmelo0"
+            imgSrc="https://i.ibb.co/JB9TmWB/Screenshot-3.png"
           />
           <ProjectElement
-            name="GERADOR DE PERSONAGEM ELDER SCROLLS"
-            description="Esta é uma ferramenta geradora de personagens do jogo Elder Scrolls, que permite criar um personagem com base em sua escolha de personagem e estilo de jogo. Foi construída usando a API do ChatGPT, e a webpage foi construída do zero usando JavaScript e CSS puro."
-            imgSrc="https://i.postimg.cc/YS6gmp9t/project2.jpg"
-            live="https://guchierrez.github.io/elderscrolls-chargen/"
-            code="https://github.com/guchierrez/elderscrolls-chargen"
+            name="Biblioteka Virtual"
+            description="API desenvolvida em Django, utilizando Django Rest Framework JWT para CRUD de usuários, livros, exemplares e empréstimos de livros. Além também de um usuário poder “seguir” um livro, para receber atualizações em seu e-mail sobre disponibilidade dos exemplares a serem emprestados. Tecnologia: Django Rest Framework JWT"
+            imgSrc="https://i.ibb.co/mSdQN0y/Screenshot-9.png"
+            live="https://github.com/marcosmelo0/biblioteka.git"
+            code="https://github.com/marcosmelo0/biblioteka.git"
             opposite={true}
           />
           <ProjectElement
-            name="ALEMÃO ACABAMENTOS LANDING PAGE"
-            description="Este projeto é uma landing page criada para o Alemão Acabamentos, um negócio local da cidade. A página apresenta os produtos oferecidos pela empresa, uma breve descrição sobre a empresa e informações de contato, como número de telefone e horários de funcionamento, além de links para contato diretamente pelo WhatsApp."
-            imgSrc="https://i.postimg.cc/ZY7NNsTv/project3.jpg"
-            live="https://guchierrez.github.io/alemao-acabamentos/"
-            code="https://github.com/guchierrez/alemao-acabamentos"
+            name="Nu Kenzie"
+            description="Aplicação de controle financeiro com monitoramento de entradas e saídas de receitas. Tecnologia: React"
+            imgSrc="https://i.ibb.co/0VxyzJ9/Screenshot-6.png"
+            live="https://react-entrega-s1-template-nu-kenzie-marcosmelo0.vercel.app/"
+            code="https://github.com/marcosmelo0/nu-kenzie-marcosmelo0/tree/master/react-entrega-s1-template-nu-kenzie-marcosmelo0"
+          />
+          <ProjectElement
+            name="Bandkamp API"
+            description="CRUDs com relacionamentos 1 → N, níveis de permissões do usuário e login com refresh token. Generic views. Tecnologia: Node.Js"
+            imgSrc="https://i.ibb.co/W3KdTDC/Screenshot-12.png"
+            live="https://bandkamp-v7ot.onrender.com/api/docs/"
+            code="https://github.com/marcosmelo0/bandkamp-generic-view.git"
+            opposite={true}
           />
         </div>
       </div>

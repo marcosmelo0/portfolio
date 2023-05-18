@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { DarkThemeToggle, Navbar } from "flowbite-react";
 import { Button } from "flowbite-react";
 
+
 export function NavbarElement() {
   function handleHomeClick() {
     const targetElement = document.getElementById("home");

@@ -10,7 +10,7 @@ export function ProjectElement({
     <div
       className={`my-10 md:my-0 relative w-fit ${opposite ? "ml-auto" : ""} `}
     >
-      <img src={imgSrc} style={{ width: "500px" }} />
+      <img alt={name} src={imgSrc} style={{ width: "500px" }} />
       <div
         className={`absolute  right-0 top-1/2 ${
           opposite ? "md:mr-96" : "md:-mr-96"

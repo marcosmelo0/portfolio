@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import "/src/styles/animation.css";
+import { FloatingWhatsApp } from "react-floating-whatsapp";
 
 export function Hero() {
   const [isVisible, setIsVisible] = useState(false);
@@ -21,7 +22,20 @@ export function Hero() {
   }
 
   return (
-    <div id="home" className="border-b-2 border-base-300 mx-auto md:pt-0 py-20">
+    <main
+      id="home"
+      className="border-b-2 border-base-300 mx-auto md:pt-0 py-20"
+    >
+      <FloatingWhatsApp
+        accountName="Marcos Melo"
+        phoneNumber="88999052577"
+        allowClickAway={true}
+        placeholder="Vi seu portfolio e tenho interesse..."
+        chatMessage="Obrigado pela visita. Em que posso ajudar você?"
+        statusMessage="Responde em até 2h"
+        avatar={`https://github.com/marcosmelo0.png`}
+        darkMode={true}
+      />
       <div className="w-5/6 m-auto md:py-48 h-full md:my-10 my-5">
         <div
           className={`grid grid-cols-1 md:grid-cols-3 md:gap-10 gap-0 fade-in ${
@@ -35,13 +49,12 @@ export function Hero() {
             <p className="font-thin md:text-lg">
               Olá! Sou Marcos Melo, um desenvolvedor web altamente motivado e
               disciplinado. Atualmente sou estudante do curso de formação
-              Fullstack pela Kenzie Academy Brasil, onde desenvolvi
-              projetos front e back end, além de trabalhar em projetos em
-              equipe para aprimorar minhas habilidades em soft skills. Pude
-              exercer as funções de QA, PO, Scrum e Teac Lead e você pode
-              conferir alguns deles neste portfólio! Estou animado para
-              continuar expandindo minhas habilidades e conhecimentos em
-              desenvolvimento web.
+              Fullstack pela Kenzie Academy Brasil, onde desenvolvi projetos
+              front e back end, além de trabalhar em projetos em equipe para
+              aprimorar minhas habilidades em soft skills. Pude exercer as
+              funções de QA, PO, Scrum e Tech Lead e você pode conferir alguns
+              deles neste portfólio! Estou animado para continuar expandindo
+              minhas habilidades e conhecimentos em desenvolvimento web.
             </p>
             <div className="flex gap-5 ">
               <button
@@ -71,6 +84,6 @@ export function Hero() {
           </div>
         </div>
       </div>
-    </div>
+    </main>
   );
 }

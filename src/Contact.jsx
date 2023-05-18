@@ -1,17 +1,17 @@
 import emailjs from "emailjs-com";
 
 export function Contact() {
-  emailjs.init("sAZB8VbdMaitSOQM-");
+  emailjs.init("Eh-enTY0KfPc5EC4F");
 
   function sendEmail(e) {
     e.preventDefault();
     const params = {
       from_name: e.target.elements.name.value,
-      email_id: e.target.elements.email.value,
+      email: e.target.elements.email.value,
       message: e.target.elements.message.value,
     };
     emailjs
-      .send("service_917op3r", "template_o80cp16", params)
+      .send("service_ld7fyie", "template_dae4s98", params)
       .then(function (res) {
         alert("E-mail sent successfully.");
       });
