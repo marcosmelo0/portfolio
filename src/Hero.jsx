@@ -28,7 +28,7 @@ export function Hero() {
     >
       <FloatingWhatsApp
         accountName="Marcos Melo"
-        phoneNumber="88999052577"
+        phoneNumber="+5588999052577"
         allowClickAway={true}
         placeholder="Vi seu portfolio e tenho interesse..."
         chatMessage="Obrigado pela visita. Em que posso ajudar você?"
