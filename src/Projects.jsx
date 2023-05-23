@@ -16,22 +16,22 @@ export function Projects() {
             imgSrc="https://i.ibb.co/JB9TmWB/Screenshot-3.png"
           />
           <ProjectElement
-            name="Biblioteka Virtual"
-            description="API desenvolvida em Django, utilizando Django Rest Framework JWT para CRUD de usuários, livros, exemplares e empréstimos de livros. Além também de um usuário poder “seguir” um livro, para receber atualizações em seu e-mail sobre disponibilidade dos exemplares a serem emprestados. Tecnologia: Django Rest Framework JWT"
-            imgSrc="https://i.ibb.co/mSdQN0y/Screenshot-9.png"
-            live="https://github.com/marcosmelo0/biblioteka.git"
-            code="https://github.com/marcosmelo0/biblioteka.git"
-            opposite={true}
-          />
-          <ProjectElement
             name="Nu Kenzie"
             description="Aplicação de controle financeiro com monitoramento de entradas e saídas de receitas. Tecnologia: React"
             imgSrc="https://i.ibb.co/0VxyzJ9/Screenshot-6.png"
             live="https://react-entrega-s1-template-nu-kenzie-marcosmelo0.vercel.app/"
             code="https://github.com/marcosmelo0/nu-kenzie-marcosmelo0/tree/master/react-entrega-s1-template-nu-kenzie-marcosmelo0"
+            opposite={true}
           />
           <ProjectElement
-            name="Bandkamp API"
+            name="Biblioteka Virtual"
+            description="API desenvolvida em Django, utilizando Django Rest Framework JWT para CRUD de usuários, livros, exemplares e empréstimos de livros. Além também de um usuário poder “seguir” um livro, para receber atualizações em seu e-mail sobre disponibilidade dos exemplares a serem emprestados. Tecnologia: Django Rest Framework JWT"
+            imgSrc="https://i.ibb.co/mSdQN0y/Screenshot-9.png"
+            live="https://biblioteca-grupo-30.vercel.app/api/docs/swagger-ui/"
+            code="https://github.com/marcosmelo0/biblioteka.git"
+          />
+          <ProjectElement
+            name="Bandkamp API (Vercel)"
             description="CRUDs com relacionamentos 1 → N, níveis de permissões do usuário e login com refresh token. Generic views. Tecnologia: Node.Js"
             imgSrc="https://i.ibb.co/W3KdTDC/Screenshot-12.png"
             live="https://bandkamp-v7ot.onrender.com/api/docs/"

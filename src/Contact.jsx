@@ -13,7 +13,7 @@ export function Contact() {
     emailjs
       .send("service_ld7fyie", "template_dae4s98", params)
       .then(function (res) {
-        alert("E-mail sent successfully.");
+        alert("E-mail Enviado, obrigado!");
       });
 
     e.target.elements.name.value = "";

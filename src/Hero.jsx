@@ -46,7 +46,7 @@ export function Hero() {
             <h1 className="font-marlinge font-bold text-2xl md:text-5xl mt-5 md:mt-0">
               SOBRE MIM
             </h1>
-            <p className="font-thin md:text-lg">
+            <p className="font-thin md:text-lg text-gray-200">
               Olá! Sou Marcos Melo, um desenvolvedor web altamente motivado e
               disciplinado. Atualmente sou estudante do curso de formação
               Fullstack pela Kenzie Academy Brasil, onde desenvolvi projetos
