@@ -77,7 +77,7 @@ export function HardSkills() {
             name="Docker"
           />
           <HardSkillElement
-            imgSrc="https://www.daggala.com/static/228867c3668e439101821568a8a03b54/19ca5/sc.png"
+            imgSrc="https://avatars.githubusercontent.com/u/20658825?s=200&v=4"
             name="Styled-Components"
           />
           <HardSkillElement
@@ -85,16 +85,8 @@ export function HardSkills() {
             name="Express"
           />
           <HardSkillElement
-            imgSrc="https://www.svgrepo.com/show/439240/npm.svg"
-            name="NPM"
-          />
-          <HardSkillElement
             imgSrc="https://www.ictshore.com/wp-content/uploads//2020/12/fstack0040-00-jest_tutorial.svg"
             name="Jest"
-          />
-          <HardSkillElement
-            imgSrc="https://www.svgrepo.com/show/353733/figma.svg"
-            name="Figma"
           />
           <HardSkillElement
             imgSrc="https://www.svgrepo.com/show/354463/trello.svg"
@@ -103,22 +95,6 @@ export function HardSkills() {
           <HardSkillElement
             imgSrc="https://www.svgrepo.com/show/353935/jira.svg"
             name="Jira"
-          />
-          <HardSkillElement
-            imgSrc="https://www.svgrepo.com/show/374167/vite.svg"
-            name="Vite"
-          />
-          <HardSkillElement
-            imgSrc="https://www.svgrepo.com/show/349575/yarn.svg"
-            name="Yarn"
-          />
-          <HardSkillElement
-            imgSrc="https://www.svgrepo.com/show/372946/scrum.svg"
-            name="Scrum"
-          />
-          <HardSkillElement
-            imgSrc="https://www.svgrepo.com/show/394236/json.svg"
-            name="JSON"
           />
         </div>
       </div>

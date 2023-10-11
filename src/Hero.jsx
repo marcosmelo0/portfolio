@@ -47,8 +47,8 @@ export function Hero() {
               SOBRE MIM
             </h1>
             <p className="font-thin md:text-lg text-gray-200">
-              Olá! Sou Marcos Melo, um desenvolvedor web altamente motivado e
-              disciplinado. Sou FullStack formado pela instituição de ensino, Kenzie Academy Brasil, onde desenvolvi projetos
+              Olá! Sou Marcos Melo, desenvolvedor web altamente motivado e
+              disciplinado. Sou Full Stack formado pela instituição de ensino, Kenzie Academy Brasil, onde desenvolvi projetos
               front e back-end. Além de trabalhar em projetos em equipe para
               aprimorar minhas habilidades em soft skills. Pude exercer as
               funções de QA, PO, Scrum e Tech Lead e você pode conferir alguns
