@@ -19,7 +19,7 @@ function App() {
       <SoftSkills />
       <HardSkills />
       <Projects />
-      <Contact />
+      {/* <Contact /> */}
       <Footer />
     </>
   );
