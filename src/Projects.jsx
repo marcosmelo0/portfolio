@@ -14,7 +14,6 @@ export function Projects() {
               imgSrc="https://i.ibb.co/W3KdTDC/Screenshot-12.png"
               live="https://bandkamp-v7ot.onrender.com/api/docs/"
               code="https://github.com/marcosmelo0/bandkamp-generic-view.git"
-              opposite={true}
             />
           <ProjectElement
             name="Hambúrgueria Kenzie"
@@ -22,6 +21,7 @@ export function Projects() {
             live="https://react-entrega-template-hamburgueria-da-kenzie-marcosmelo0.vercel.app/"
             code="https://github.com/marcosmelo0/hamburgueria-da-kenzie-marcosmelo0"
             imgSrc="https://i.ibb.co/JB9TmWB/Screenshot-3.png"
+            opposite={true}
           />
           <ProjectElement
             name="Biblioteka Virtual"
