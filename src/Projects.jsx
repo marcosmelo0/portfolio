@@ -9,19 +9,19 @@ export function Projects() {
         </h2>
         <div className="flex flex-col gap-60 md:gap-20 md:my-20 mb-40">
           <ProjectElement
+              name="Bandkamp API (Vercel)"
+              description="CRUDs com relacionamentos 1 → N, níveis de permissões do usuário e login com refresh token. Generic views. Tecnologia: Django Rest Framework"
+              imgSrc="https://i.ibb.co/W3KdTDC/Screenshot-12.png"
+              live="https://bandkamp-v7ot.onrender.com/api/docs/"
+              code="https://github.com/marcosmelo0/bandkamp-generic-view.git"
+              opposite={true}
+            />
+          <ProjectElement
             name="Hambúrgueria Kenzie"
             description="Aplicação com sistema de cadastro e login, mapeamento de rotas. O usuário pode fazer pedido online de hambúrgueres, o usuário pode colocar mais de um hambúrguer no carrinho, mas não pode colocar dois repetidos. Tecnologia: React"
             live="https://react-entrega-template-hamburgueria-da-kenzie-marcosmelo0.vercel.app/"
             code="https://github.com/marcosmelo0/hamburgueria-da-kenzie-marcosmelo0"
             imgSrc="https://i.ibb.co/JB9TmWB/Screenshot-3.png"
-          />
-          <ProjectElement
-            name="Nu Kenzie"
-            description="Aplicação de controle financeiro com monitoramento de entradas e saídas de receitas. Tecnologia: React"
-            imgSrc="https://i.ibb.co/0VxyzJ9/Screenshot-6.png"
-            live="https://react-entrega-s1-template-nu-kenzie-marcosmelo0.vercel.app/"
-            code="https://github.com/marcosmelo0/nu-kenzie-marcosmelo0/tree/master/react-entrega-s1-template-nu-kenzie-marcosmelo0"
-            opposite={true}
           />
           <ProjectElement
             name="Biblioteka Virtual"
@@ -31,11 +31,11 @@ export function Projects() {
             code="https://github.com/marcosmelo0/biblioteka.git"
           />
           <ProjectElement
-            name="Bandkamp API (Vercel)"
-            description="CRUDs com relacionamentos 1 → N, níveis de permissões do usuário e login com refresh token. Generic views. Tecnologia: Node.Js"
-            imgSrc="https://i.ibb.co/W3KdTDC/Screenshot-12.png"
-            live="https://bandkamp-v7ot.onrender.com/api/docs/"
-            code="https://github.com/marcosmelo0/bandkamp-generic-view.git"
+            name="Nu Kenzie"
+            description="Aplicação de controle financeiro com monitoramento de entradas e saídas de receitas. Tecnologia: React"
+            imgSrc="https://i.ibb.co/0VxyzJ9/Screenshot-6.png"
+            live="https://react-entrega-s1-template-nu-kenzie-marcosmelo0.vercel.app/"
+            code="https://github.com/marcosmelo0/nu-kenzie-marcosmelo0/tree/master/react-entrega-s1-template-nu-kenzie-marcosmelo0"
             opposite={true}
           />
         </div>
