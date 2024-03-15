@@ -38,13 +38,6 @@ export function Projects() {
             code="https://github.com/marcosmelo0/nu-kenzie-marcosmelo0/tree/master/react-entrega-s1-template-nu-kenzie-marcosmelo0"
             opposite={true}
           />
-          <ProjectElement
-            name="KImóveis"
-            description="Serviço de back-end responsável por gerenciar uma imobiliária utilizando TypeORM e relacionamentos. Tecnologia: Typescript"
-            imgSrc="https://img.freepik.com/free-vector/back-end-typographic-header-software-development-process-website-interface-design-improvement-programming-coding-it-profession-isolated-flat-vector-illustration_613284-210.jpg"
-            live="https://github.com/Kenzie-Academy-Brasil-Developers/kimoveis-marcosmelo0.git"
-            code="https://github.com/Kenzie-Academy-Brasil-Developers/kimoveis-marcosmelo0.git"
-          />
         </div>
       </div>
     </div>

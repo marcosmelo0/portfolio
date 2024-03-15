@@ -42,7 +42,7 @@ export function Projects() {
             name="KImóveis"
             description="Serviço de back-end responsável por gerenciar uma imobiliária utilizando TypeORM e relacionamentos. Tecnologia: Typescript"
             imgSrc="https://img.freepik.com/free-vector/back-end-typographic-header-software-development-process-website-interface-design-improvement-programming-coding-it-profession-isolated-flat-vector-illustration_613284-210.jpg"
-            live="https://github.com/Kenzie-Academy-Brasil-Developers/kimoveis-marcosmelo0.git"
+            live="https://react-entrega-s1-template-nu-kenzie-marcosmelo0.vercel.app/"
             code="https://github.com/Kenzie-Academy-Brasil-Developers/kimoveis-marcosmelo0.git"
           />
         </div>
