@@ -88,6 +88,10 @@ export function HardSkills() {
             imgSrc="https://www.ictshore.com/wp-content/uploads//2020/12/fstack0040-00-jest_tutorial.svg"
             name="Jest"
           />
+          <HardSkillElement
+            imgSrc="https://www.svgrepo.com/show/353935/jira.svg"
+            name="Jira"
+          />
         </div>
       </div>
     </div>
