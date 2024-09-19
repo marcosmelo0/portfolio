@@ -45,6 +45,14 @@ export function Projects() {
             live="https://github.com/Kenzie-Academy-Brasil-Developers/kimoveis-marcosmelo0.git"
             code="https://github.com/Kenzie-Academy-Brasil-Developers/kimoveis-marcosmelo0.git"
           />
+          <ProjectElement
+            name="Plataforma EAD (EM ANDAMENTO)"
+            description="Plataforma EAD de cursos, o modelo de pagamento será com recorrência mensal/anual. Feito com tecnologias Docker, PHP, Laravel e VueJS"
+            imgSrc="https://www.edesigner.com.br/wp-content/uploads/2017/07/Plataforma-EAD.jpg"
+            live="#"
+            code="https://github.com/marcosmelo0/abc-plataforma.git"
+            opposite={true}
+          />
         </div>
       </div>
     </div>
